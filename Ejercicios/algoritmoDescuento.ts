@@ -1,5 +1,7 @@
 //Ejecicio slide
-let precioInicial: number = "450.50";
+let cantidad: number = "1";
+let precio: number = "450.50";
+let precioInicial: number = cantidad * precio;
 let descuento: number = "0.1";
 let precioFinal: number = precioInicial - precioInicial * descuento;
 
