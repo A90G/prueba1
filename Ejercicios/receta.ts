@@ -13,5 +13,6 @@ let cantidadIngrediente4: string = "2 unidades";
 let cantidadIngrediente5: string = "250 gramos";
 
 //Pasos de la receta
-console.log("Receta fácil para hacer muffins de ") + ingrediente1;
-console.log("");
+console.log("Receta fácil para hacer muffins de " + ingrediente1);
+console.log("1er paso: tomo las " + cantidadIngrediente1 + "de" + ingrediente1 + " y las piso en un bowl");
+console.log ("2do Paso: agrego" + )
