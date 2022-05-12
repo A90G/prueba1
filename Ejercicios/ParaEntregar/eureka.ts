@@ -1,26 +1,26 @@
-//còmo le digo que lo haga hasta 3 veces?
-//debo escribir màs còdigo del estilo: 1ro pregunte usuario si no es cierre
-//luego un for?
+let contraseña: string = "Eureka";
+let ingreseContraseña: string = prompt(
+  "Ingrese su contraseña, tiene 3 intentos"
+);
 
-let contrasenaUsuario: string;
-let contador: number = 1;
-
-while (contador <= 3 && contrasenaUsuario !== "Eureka") {
-  contrasenaUsuario = prompt("introduzca la clave");
-  contador++;
-}
-if (contrasenaUsuario === "Eureka") {
-  console.log("clave correcta");
+if (contraseña === ingreseContraseña) {
+  console.log("Usted ha ingresado correctamente");
 } else {
-  console.log("ya no tiene más intentos");
-}
+  let ingreseContraseña: string = prompt(
+    "Ingrese su contraseña, tiene 2 intentos"
+  );
 
-/* var contrasenaIngreso = prompt("ingrese su contraseña");
-  function validacionPasoUno() { 
-  if (usuarioIngreso === nombreUsuario && contrasenaIngreso === contrasenaUsuario) {
-    console.log("acceso");
-  } else { (ingreso < 3)
-    alert( prompt ("SÓLO TIENE 3 OPORTUNIDADES");
+  if (contraseña === ingreseContraseña) {
+    console.log("Usted ha ingresado correctamente");
+  } else {
+    let ingreseContraseña: string = prompt(
+      "Ingrese su contraseña, tiene 1 intentos"
+    );
+
+    if (contraseña === ingreseContraseña) {
+      console.log("Usted ha ingresado correctamente");
+    } else {
+      console.log("Contraseña incorrecta, se bloqueó el ingreso");
+    }
   }
-
-}*/
+}
